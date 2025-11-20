@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nithin Kumar Bachu | Portfolio</title>
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    /* ====== GLASS EFFECT CONTAINER ====== */
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 900px;
+      padding: 40px 50px;
+      text-align: center;
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid rgba(255,255,255,0.6);
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+
+    header p {
+      color: #e0e0e0;
+      font-size: 1.1rem;
+      margin-bottom: 25px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffd166;
+    }
+
+    section {
+      margin: 40px 0;
+      text-align: left;
+    }
+
+    section h2 {
+      margin-bottom: 10px;
+      border-left: 5px solid #ffd166;
+      padding-left: 10px;
+      font-size: 1.6rem;
+    }
+
+    .about p {
+      line-height: 1.7;
+      font-size: 1rem;
+      color: #f2f2f2;
+    }
+
+    /* ====== SKILLS ====== */
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .skill {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 8px 18px;
+      border-radius: 25px;
+      border: 1px solid rgba(255,255,255,0.3);
+      font-size: 0.95rem;
+      transition: background 0.3s ease;
+    }
+
+    .skill:hover {
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    /* ====== PROJECTS ====== */
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 15px;
+    }
+
+    .project-card {
+      background: rgba(255,255,255,0.15);
+      border-radius: 15px;
+      border: 1px solid rgba(255,255,255,0.3);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      background: rgba(255,255,255,0.25);
+    }
+
+    .project-card h3 {
+      margin-bottom: 8px;
+    }
+
+    .project-card p {
+      font-size: 0.95rem;
+      color: #eaeaea;
+    }
+
+    /* ====== CONTACT ====== */
+    .contact-info p {
+      margin: 8px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      background: rgba(255,255,255,0.2);
+      padding: 10px 25px;
+      border-radius: 25px;
+      border: 1px solid rgba(255,255,255,0.4);
+      color: #fff;
+      text-decoration: none;
+      margin-top: 15px;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: rgba(255,255,255,0.35);
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="C:\Users\bachu\OneDrive\画像\Screenshots 1\IMG-20230905-WA0040.jpg" alt="Nithin Kumar Bachu">
+      <h1 style="color:#fff;">Nithin Kumar Bachu</h1>
+      <p style="font-style:italic;">Front-End Developer | UI Designer </p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Nithin Kumar Bachu, a passionate front-end developer and designer who loves crafting clean, modern, and user-friendly websites.
+I recently started my journey in web development and enjoy turning creative ideas into responsive and interactive digital experiences using the latest web technologies.
+I'm constantly learning and improving my skills to build visually appealing and efficient web solutions that make a real impact. 
+        My goal is to merge creativity and logic to bring digital ideas to life while delivering smooth user experiences.
+      </p>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span class="skill">HTML5</span>
+        <span class="skill">CSS</span>
+        <span class="skill">Git & GitHub</span>
+        <span class="skill">Figma</span>
+        <span class="skill">Responsive Design</span>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+
+        <div class="project-card">
+          <h3>Mitigating Privacy Risks from Inference Attacks</h3>
+          <p> Developed an anomaly detection system using the Django web framework and machine learning to identify potential 
+inference attacks from network traffic and database access logs, enhancing database security and privacy protection. Designed the system to learn normal user and database access patterns, enabling real-time identification of suspicious 
+or abnormal activities that could indicate inference-based intrusions. Implemented an ensemble learning approach using VotingClassifier, integrating multiple models to improve detection accuracy and robustness, while leveraging Django’s secure, scalable architecture for practical deployment. </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Urban ZoomIn</h3>
+          <p>Urban ZoomIN is a real-time hyperlocal discovery platform that helps users instantly find nearby shops, check their 
+open or busy status, and explore available products or services.The platform connects citizens and local businesses through verified listings, live updates, location-based navigation, and direct communication options via WhatsApp or calls.It is designed especially for Tier 2 and Tier 3 cities, promoting digital access, saving users’ time, and boosting visibility for small and local enterprises. .</p>
+        </div>
+        
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <p>Email: <a href="bachunithinkumar38@gmail.com" style="color:#ffd166;">bachuniithinkumar38@gmail.com</a></p>
+        <p>Phone: <span style="color:#ffd166;">+91 9392473489</span></p>
+        <p>Location: Jangaon ,Telangana</p>
+        <a href="www.linkedin.com/in/nithin-kumar-bachu-353965232" class="btn">LinkedIn</a>
+        <a href="https://github.com/bachunithinkumar/training" class="btn">GitHub</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Nithin kumar bachu. Designed with ❤️ and a glass touch.</p>
+    </footer>
+  </div>
+</body>
+</html>

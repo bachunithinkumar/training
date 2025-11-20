@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form and Table</title>
+</head>
+<body>
+
+
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <label for="experience">Experience Level:</label><br>
+        <select id="experience" name="experience">
+            <option value=" ">Beginner</option>
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <hr>
+    <table border="1" cellspacing="0" cellpadding="8">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Experience</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Alice Carter</td>
+            <td>Developer</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Michael Trent</td>
+            <td>Designer</td>
+            <td>Advanced</td>
+        </tr>
+    </table>
+
+</body>
+</html>
