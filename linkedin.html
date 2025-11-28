@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+
+<marquee behavior="alternate" scrollamount="8">
+    <h2>Welcome to the Registration Portal </h2>
+</marquee>
+
+
+<form action="#">
+
+    <table border="1" cellpadding="10" cellspacing="0" align="center" width="60%">
+        <tr bgcolor="#f0f0f0">
+            <th colspan="2"><h3>Personal Information</h3></th>
+        </tr>
+
+        <tr>
+            <td>Full Name</td>
+            <td><input type="text" name="fullname" placeholder="Enter your full name" required></td>
+        </tr>
+
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="email" placeholder="Enter your email"></td>
+        </tr>
+
+        <tr>
+            <td>Phone Number</td>
+            <td><input type="number" name="phone" placeholder="Enter your number"></td>
+        </tr>
+
+        <tr>
+            <td>Date of Birth</td>
+            <td><input type="date" name="dob"></td>
+        </tr>
+
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Other"> Other
+            </td>
+        </tr>
+
+        <tr bgcolor="#f0f0f0">
+            <th colspan="2"><h3>Address Details</h3></th>
+        </tr>
+
+        <tr>
+            <td>Country</td>
+            <td>
+                <select name="country">
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>UK</option>
+                    <option>Australia</option>
+                    <option>Other</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Full Address</td>
+            <td><textarea name="address" rows="4" cols="40" placeholder="Enter your complete address"></textarea></td>
+        </tr>
+
+        <tr bgcolor="#f0f0f0">
+            <th colspan="2"><h3>Account Information</h3></th>
+        </tr>
+
+        <tr>
+            <td>Username</td>
+            <td><input type="text" name="username" placeholder="Choose username"></td>
+        </tr>
+
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="password" placeholder="Enter password"></td>
+        </tr>
+
+        <tr>
+            <td>Skills</td>
+            <td>
+                <input type="checkbox" name="skill" value="Java"> Java
+                <input type="checkbox" name="skill" value="HTML"> HTML
+                <input type="checkbox" name="skill" value="CSS"> CSS
+                <input type="checkbox" name="skill" value="Python"> Python
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Submit Form">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+
+    </table>
+
+</form>
+
+
+<marquee scrollamount="6" direction="right">
+    Thank you for visiting! Have a great day 
+</marquee>
+
+</body>
+</html>
