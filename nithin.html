@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Selectors Example</title>
+    <style>
+        body {
+            background-color: lightsalmon;
+        }
+
+        table {
+            width: 100px;
+            border-collapse: collapse;
+
+
+        }
+
+        tr,td {
+            text-align: center;
+            color: aliceblue;
+            padding: 50px;
+            font-size: 20;
+            font-weight: bold;
+
+        }
+
+        a:link {
+            color: black;
+
+        }
+
+        img {
+            display: flex;
+            width: 500px;
+            float: right;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 25px;
+        }
+
+        .text-below {
+            font-size: 18px;
+            margin-top: 20px;
+            clear: right;
+        }
+        small{
+            text-align: justify; 
+            width: 60%; 
+            margin: 0 auto; 
+            font-size: 18px; 
+            line-height: 1.6;
+           
+        }
+    </style>
 </head>
+
 <body>
-    <h1> Hi this is nithin</h1>
+
+    <table>
+        <tr>
+            <td><a href="#Home">Home</a></td>
+            <td><a href="About Us">About Us</a></td>
+            <td><a href="Order">Order</a></td>
+            <td><a href="Contact us">Contact us</a></td>
+            <td><a href="Help">Help</a></td>
+        </tr>
+    </table>
+    <div>
+    <img class="bg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM6mv8r6HBQaGpnyCUC42b8kJ0M82ONEqLlA&s">
+
+    <p><b style="font-size: 29px;">"A room without books is like a body without a soul.</b>"
+        <b style="font-size: 35px;float:right; "> -Cicero</b>
+    </p>
+    </div>
+
+    <div><p>
+    <small>Books are essential sources of information, imagination, and inspiration. They preserve knowledge across
+        generations, providing readers with insights into history, culture, science, and art. Beyond education, books
+        stimulate critical thinking, enhance creativity, and foster personal growth. Whether in printed or digital form,
+        they empower individuals to explore new ideas, develop skills, and connect with diverse perspectives. Reading
+        books cultivates curiosity, broadens understanding, and encourages lifelong learning.</small></div>
+    </p>
+
+
+        <div>
+          
+    <p class="text-below" id="Home"><h3>Home</h3><br>Books are timeless repositories of knowledge, creativity, and culture, serving as
+        indispensable tools for
+        education, research, and intellectual growth. They provide structured, reliable information and thoughtful
+        analysis across every field, from science and technology to literature, history, and the arts. Beyond their
+        informational value, books stimulate critical thinking, enhance comprehension, and foster analytical and
+        problem-solving skills.<br><br>
+
+        In professional and academic contexts, books are essential for developing expertise, supporting evidence-based
+        decision-making, and cultivating a well-rounded understanding of complex subjects. They also preserve human
+        experience and cultural heritage, offering insights into diverse perspectives, traditions, and philosophies.
+
+        <br> <br>Whether in printed or digital form, books empower individuals to expand their knowledge, engage in
+        continuous
+        learning, and nurture curiosity. They remain one of the most effective mediums for lifelong learning, personal
+        development, and professional excellence, bridging the gap between generations and fostering a culture of
+        informed, thoughtful, and creative individuals.
+    </p>
+    </div>
+
+<marquee><b><em>Thank you for visiting</em></b></marquee>
 </body>
+
 </html>
